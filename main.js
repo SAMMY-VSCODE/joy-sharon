@@ -1,22 +1,21 @@
-const menu = document.getElementById('menu');
-const mobile = document.getElementById('mobile');
-const menuTwo = document.getElementById('menuTwo');
+const menu = document.getElementById("menu");
+const mobile = document.getElementById("mobile");
+const menuTwo = document.getElementById("menuTwo");
 
-document.onclick = function(e) {
-  if(e.target.id  !=='mobile' &&  e.target.id !== 'menu'){
-    menu.classList.remove('active');
-    mobile.classList.remove('active');
-    menuTwo.classList.toggle('active');
+document.onclick = function (e) {
+  if (e.target.id !== "mobile" && e.target.id !== "menu") {
+    menu.classList.remove("active");
+    mobile.classList.remove("active");
+    menuTwo.classList.toggle("active");
   }
-}
-  
+};
 
-menuTwo.onclick = function() {
-  console.log('boy');
-  menu.classList.toogle('active')
-  mobile.classList.toogle('active')
-  menuTwo.classList.toogle('active')
-}
+menuTwo.onclick = function () {
+  console.log("boy");
+  menu.classList.toggle("active");
+  mobile.classList.toggle("active");
+  menuTwo.classList.toggle("active");
+};
 
 
 
