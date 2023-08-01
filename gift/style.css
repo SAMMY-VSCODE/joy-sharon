@@ -250,6 +250,7 @@ nav {
 .header-right  i{
     font-size: 50px;
     text-decoration: none;
+    /* margin-top: 50px; */
 }
 
 #story{
@@ -700,7 +701,7 @@ nav {
 
 .gift1{
     /* border: 3px solid black; */
-    height: 500px;
+    /* height: 500px; */
     width: 100%;
     display: flex;
     justify-content: center;
@@ -712,7 +713,7 @@ nav {
 }
 .gift2{
     /* border: 3px solid black; */
-    height: 500px;
+    /* height: 1000px; */
     width: 100%;
     display: flex;
     justify-content: center;
@@ -721,9 +722,10 @@ nav {
     padding: 50px;
 
 }
+
 .gift3{
     /* border: 3px solid black; */
-    height: 500px;
+    /* height: 500px; */
     width: 100%;
     display: flex;
     justify-content: center;
@@ -734,7 +736,7 @@ nav {
 }
 .gift4{
     /* border: 3px solid black; */
-    height: 500px;
+    /* height: 500px; */
     width: 100%;
     display: flex;
     justify-content: center;
@@ -747,7 +749,7 @@ nav {
 .slide1{
     border: 1px solid gray;
     height: 400px;
-    width: 32%;
+    width: 400px;
     border-radius: 0 0 20px 20px;
     /* background:  #fffcc5; */
 
@@ -755,7 +757,7 @@ nav {
 .slide2{
     border: 1px solid gray;
     height: 400px;
-    width: 32%;
+    width: 400px;
     border-radius: 0 0 20px 20px;
     /* background:  #fffcc5; */
 
@@ -763,7 +765,7 @@ nav {
 .slide3{
     border: 1px solid gray;
     height: 400px;
-    width: 32%;
+    width: 400px;
     border-radius: 0 0 20px 20px;
     /* background:  #fffcc5; */
 
@@ -771,7 +773,7 @@ nav {
 .slide4{
     border: 1px solid gray;
     height: 400px;
-    width: 32%;
+    width: 400px;
     border-radius: 0 0 20px 20px;
     /* background:  #fffcc5; */
 
@@ -779,7 +781,7 @@ nav {
 .slide5{
     border: 1px solid gray;
     height: 400px;
-    width: 32%;
+    width: 400px;
     border-radius: 0 0 20px 20px;
     /* background:  #fffcc5; */
 
@@ -787,7 +789,7 @@ nav {
 .slide6{
     border: 1px solid gray;
     height: 400px;
-    width: 32%;
+    width: 400px;
     border-radius: 0 0 20px 20px;
     /* background:  #fffcc5; */
 
@@ -795,7 +797,7 @@ nav {
 .slide7{
     border: 1px solid gray;
     height: 400px;
-    width: 32%;
+    width: 400px;
     border-radius: 0 0 20px 20px;
     /* background:  #fffcc5; */
 
@@ -803,7 +805,7 @@ nav {
 .slide8{
     border: 1px solid gray;
     height: 400px;
-    width: 32%;
+    width: 400px;
     border-radius: 0 0 20px 20px;
     /* background:  #fffcc5; */
 
@@ -811,7 +813,7 @@ nav {
 .slide9{
     border: 1px solid gray;
     height: 400px;
-    width: 32%;
+    width: 400px;
     border-radius: 0 0 20px 20px;
     /* background:  #fffcc5; */
 
@@ -819,7 +821,7 @@ nav {
 .slide10{
     border: 1px solid gray;
     height: 400px;
-    width: 32%;
+    width: 400px;
     border-radius: 0 0 20px 20px;
     /* background:  #fffcc5; */
 
@@ -827,7 +829,7 @@ nav {
 .slide11{
     border: 1px solid gray;
     height: 400px;
-    width: 32%;
+    width: 400px;
     border-radius: 0 0 20px 20px;
     /* background:  #fffcc5; */
 
@@ -835,7 +837,7 @@ nav {
 .slide12{
     border: 1px solid gray;
     height: 400px;
-    width: 32%;
+    width: 400px;
     border-radius: 0 0 20px 20px;
     /* background:  #fffcc5; */
 
@@ -943,7 +945,7 @@ nav {
     margin-bottom: 20px;
     font-family: 'Alegreya Sans SC', sans-serif;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 .inside1  h1{
     font-size: 23px;
@@ -951,18 +953,19 @@ nav {
 }
 .inside1b  i{
     font-size: 20px;
-    /* color: black; */
+    
     color: yellow;
 }
+
 .inside1b button{
     border-radius: 50%;
     height: 50px;
     width: 50px;
     background: black;
     border: 1px solid yellow;
-    margin-left: 140px;
+    margin-right: 10px;
     margin-top: 20px;
-    bottom: 100px;
+    
 }
 .inside  p{
     margin-bottom: 40px;
@@ -973,7 +976,7 @@ nav {
     margin-bottom: 20px;
     font-family: 'Alegreya Sans SC', sans-serif;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     
 }
 .inside2a  h1{
@@ -991,9 +994,8 @@ nav {
     width: 50px;
     border: 1px solid yellow;
     background: black;
-    margin-left: 140px;
+    margin-right: 10px;
     margin-top: 20px;
-    bottom: 100px;
 }
 .inside2  p{
     margin-bottom: 40px;
@@ -1004,7 +1006,7 @@ nav {
     margin-bottom: 20px;
     font-family: 'Alegreya Sans SC', sans-serif;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     
 }
 .inside3a  h1{
@@ -1022,9 +1024,8 @@ nav {
     width: 50px;
     border: 1px solid yellow;
     background: black;
-    margin-left: 140px;
+    margin-right: 10px;
     margin-top: 20px;
-    bottom: 100px;
 }
 .inside3  p{
     margin-bottom: 40px;

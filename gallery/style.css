@@ -463,7 +463,7 @@ nav {
     justify-content: center;
     align-items: center;
     justify-content: space-evenly;
-    background: #fffcc5;
+    /* background: #fffcc5; */
     padding: 20px;
 }
 .picture1{
@@ -514,7 +514,7 @@ nav {
     justify-content: center;
     align-items: center;
     justify-content: space-evenly;
-    background: #fffcc5;
+    /* background: #fffcc5; */
     padding: 20px;
 }
 .picture5{
@@ -561,7 +561,7 @@ nav {
     justify-content: center;
     align-items: center;
     justify-content: space-evenly;
-    background: #fffcc5;
+    /* background: #fffcc5; */
     padding: 20px;
 }
 .gallery4{
@@ -572,7 +572,7 @@ nav {
     justify-content: center;
     align-items: center;
     justify-content: space-evenly;
-    background: #fffcc5;
+    /* background: #fffcc5; */
     padding: 20px;
 }
 .gallery5{
@@ -583,7 +583,7 @@ nav {
     justify-content: center;
     align-items: center;
     justify-content: space-evenly;
-    background: #fffcc5;
+    /* background: #fffcc5; */
     padding: 20px;
 }
 .picture9{
@@ -1460,3 +1460,90 @@ nav {
     font-size: 4.5rem;
   }
   
+
+
+
+
+  .slider {
+    width: 350px;
+    border-radius: 30px;
+    height: 500px;
+    /* background-color: yellow; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    overflow: hidden;
+  }
+  .slider-background{
+    background: #fdf9a8;
+
+
+  }
+  .image-container {
+    width: 3500px;
+    background-color: pink;
+    height: 500px;
+    clear: both;
+    position: relative;
+    -webkit-transition: left 2s;
+    -moz-transition: left 2s;
+    -o-transition: left 2s;
+    transition: left 2s;
+    
+  }
+  .image-container  img{
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .slide {
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+  }
+  #slide-1:target ~ .image-container {
+    left: 0px;
+  }
+  #slide-2:target ~ .image-container {
+    left: -350px;
+  }
+  #slide-3:target ~ .image-container {
+    left: -700px;
+  }
+  
+  #slide-4:target ~ .image-container {
+    left: -1050px;
+  }
+  
+  #slide-5:target ~ .image-container {
+    left: -1400px;
+  }
+  #slide-6:target ~ .image-container {
+    left: -1750px;
+  }
+  #slide-7:target ~ .image-container {
+    left: -2100px;
+  }
+  #slide-8:target ~ .image-container {
+    left: -2450px;
+  }
+  #slide-9:target ~ .image-container {
+    left: -2800px;
+  }
+  #slide-10:target ~ .image-container {
+    left: -3150px;
+  }
+  
+  .buttons {
+    position: relative;
+    top: -20px;
+  }
+  .buttons a {
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    border-radius: 50px;
+    background-color: lightgreen;
+  }
